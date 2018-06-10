@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>idbcrud Starter Kit </title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+
+  <style>
+    .heading {
+      text-align: center;
+      font-size: 32px;
+      padding: 10px 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      margin-bottom: 20px;
+      background: #006db3;
+      color: white;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @keyframes slide {
+      0% {
+        transform: translateY(-15%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      width: 300px;
+      max-width: 100%;
+      border-radius: 5px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      animation: 0.3s ease-out 0s 1 slide;
+    }
+
+    .card h4 {
+      font-size: 20px;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+
+    .name-wrapper {
+      padding: 20px 32px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+    <h1 class="heading">idbcrud Starter Kit</h1>
+    <section id="userlist" class="container">
+
+    </section>
+  </main>
+
+    <script src="./dist/bundle.js"></script>
+
+</body>
+
+</html>
