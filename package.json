@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "dev": "webpack --mode production"
+    "build": "webpack --mode production"
   },
   "keywords": [
     "idb",
